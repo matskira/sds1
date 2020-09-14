@@ -1,6 +1,7 @@
 package com.devsuperior.entities;
 
 import java.io.Serializable;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +15,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.devsuperior.entities.enums.Platform;
+
+
 @Entity
 @Table(name= "tb_game")
 public class Game implements Serializable{
